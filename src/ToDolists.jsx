@@ -15,7 +15,7 @@ const ToDolists = (props) => {
     }
 
     const handleEditSubmit = (e) => {
-        if(e.code == "Enter") {
+        if(e.code === "Enter") {
             props.onEdit(props.id,editInputValue);
             setEditInput(false);
         }

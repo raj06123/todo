@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, } from 'react';
 import ToDolists from "./ToDolists";
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
   };
   
   const onKeyPress = (e) => {
-    if(e.code == "Enter") {
+    if(e.code === "Enter") {
       listOfItems();
     }
   }
